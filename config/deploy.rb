@@ -2,9 +2,9 @@
 lock "~> 3.18.1"
 
 set :application, 'hello_world'
-set :repo_url, 'git@github.com:rkmmanivannan/rails-ec2-deploy.git' # Edit this to match your repository
+set :repo_url, 'git@github.com:pavangow/rails-aws-ec2-deploy.git' # Edit this to match your repository
 set :branch, :master
-set :deploy_to, '/home/deploy/urlshortner'
+set :deploy_to, '/home/deploy/hello_world'
 set :pty, true
 set :linked_files, %w{config/database.yml config/application.yml}
 set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system public/uploads}
